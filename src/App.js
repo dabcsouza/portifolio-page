@@ -8,8 +8,8 @@ export default class App extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/portifolio-page" component={Profile}/>
-        <Route path="*" component={PageNotFound} />
+        <Route exact path="/portifolio-page" component={ Profile }/>
+        <Route path="*" component={ PageNotFound } />
       </Switch>
     )
   }
